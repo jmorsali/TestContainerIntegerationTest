@@ -45,7 +45,7 @@ namespace ToDoWebApi.Test.ToDoControllerTests
 
             // Assert
             await toDoEntity.ReloadAsync();
-            Assert.Equal(HttpStatusCode.Created, responseMessage.StatusCode);
+            Assert.Equal(HttpStatusCode.OK, responseMessage.StatusCode);
             Assert.False(toDo.Completed);
             Assert.Null(toDo.CompletedOn);
         }
