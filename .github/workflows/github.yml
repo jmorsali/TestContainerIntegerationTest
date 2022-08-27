@@ -13,4 +13,4 @@ jobs:
       with:
         dotnet-version: '6.0'
     - name: Run Tests
-      run: dotnet test
+      run: dotnet test ToDoWebApi.Test
