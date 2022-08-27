@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ToDoWebApi.Test": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

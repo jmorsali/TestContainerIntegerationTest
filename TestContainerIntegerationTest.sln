@@ -1,14 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoWebApi", "ToDoWebApi\ToDoWebApi.csproj", "{274666DD-B300-4A3E-A0F0-C4C4FAB7F34B}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoWebApi", "ToDoWebApi\ToDoWebApi.csproj", "{274666DD-B300-4A3E-A0F0-C4C4FAB7F34B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoWebApi.Test", "ToDoWebApi.Test\ToDoWebApi.Test.csproj", "{56968D1A-76F1-4499-B7AE-0CC35CB4BD1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoWebApi.Test", "ToDoWebApi.Test\ToDoWebApi.Test.csproj", "{56968D1A-76F1-4499-B7AE-0CC35CB4BD1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{5A9F0174-3225-402F-A1A4-77746ADC1E10}"
-ProjectSection(SolutionItems) = preProject
-	.github\workflows\github.yml = .github\workflows\github.yml
-	ReadMe.md = ReadMe.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\github.yml = .github\workflows\github.yml
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5CB65DF9-45F0-489B-BA0D-3A25362D3C6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,15 @@ Global
 		{56968D1A-76F1-4499-B7AE-0CC35CB4BD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56968D1A-76F1-4499-B7AE-0CC35CB4BD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56968D1A-76F1-4499-B7AE-0CC35CB4BD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB65DF9-45F0-489B-BA0D-3A25362D3C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB65DF9-45F0-489B-BA0D-3A25362D3C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB65DF9-45F0-489B-BA0D-3A25362D3C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB65DF9-45F0-489B-BA0D-3A25362D3C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F624FAF6-A6BD-4DCD-8CD2-B6FE516CEF04}
 	EndGlobalSection
 EndGlobal
